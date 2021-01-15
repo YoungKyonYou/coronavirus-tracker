@@ -12,12 +12,17 @@
 <h1>Coronavirus Tracker Application</h1>
 <p>This application lists the current number of cases reported across the globe</p>
 
-<div class="jumbotron">
+<div class="alert alert-primary" role="alert">
     <h1 class="display-4" th:text="${totalReportedCases}"></h1>
     <p class="lead">Total cases reported as of today</p>
+    <hr class="my-4">
+    <p>
+        <span>New cases reported since previous day</span>
+        <span th:text="${totalNewCases}"></span>
+    </p>
 </div>
 <div class="cotainer">
-    <table>
+    <table class="table">
         <tr>
             <th>State</th>
             <th>Country</th>
