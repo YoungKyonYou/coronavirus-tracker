@@ -1,6 +1,6 @@
 # coronavirus-tracker
 
-#Status of each Country
+# Status of each Country
 
 #### Main Page of CoronaVirus19 Tracker 
 
